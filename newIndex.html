@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main1.css" type="text/css">
+	<script src="js/setHomeSetFav.js" type="text/javascript" charset="gb2312"></script>
+	<script src="js/myfocus-2.0.1.min.js" type="text/javascript"></script>
+	<script src="js/mf-pattern/mf_Fancy.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="js/mf-pattern/mf_Fancy.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		myFocus.set({
+			    id:'picBox',//焦点图盒子ID
+			    loadIMGTimeout:0,//当页面载入时立即加载图片
+			    time:3,//切换时间间隔(秒)
+			    width:1000,//设置图片区域宽度(像素)
+			    height:310,//设置图片区域高度(像素)
+	})
+	</script>
+</head>
+<body>
+	<div class="top">
+		<div class="logo">
+			<img src="http://img.mukewang.com/53edadad0001efe202000070.jpg" alt="">
+		</div>
+		<div class="nav">
+		<ul>
+						<li><a href="javascript:;" class="now">首页</a></li>
+						<li><a href="list.html">产品特色</a></li>
+						<li><a href="list.html">解决方案</a></li>
+						<li><a href="list.html">产品价格</a></li>
+						<li><a href="list.html">帮助中心</a></li>
+						<li><a href="list.html">关于我们</a></li>			
+		</ul>				
+		</div>
+	</div><!-- top结束 -->
+	<div class="wrap">
+		<div class="ad" id="picBox">
+		<div class="loading"><img src="images/loading.gif" alt="图片加载中"></div>
+			<div class="pic">
+				<ul>
+					<li><img src="images/ad2.jpg"></li>
+					<li><img src="images/ad3.jpg"></li>
+					<li><img src="images/ad4.jpg"></li>
+				</ul>
+			</div>
+		</div><!-- ad结束 -->
+	<div class="scroll">
+		<div class="scroll_left">滚动新闻</div>
+		<div class="scroll_right">
+		<marquee direction="left"    scrolldelay="200"  width="850px"     height="40px"  bgcolor="#3E3E3E">  
+               这是滚动新闻
+           </marquee>
+        </div> 
+    </div>
+    <div class="course">
+        <ul>
+        	<li>
+        		<img src="http://img.mukewang.com/53edad54000119fb03300130.jpg" alt="">
+        		<a href="javascript:;">玩转BootStrap</a>
+       		</li>
+        	<li>
+        		<img src="http://img.mukewang.com/53edad690001260a03300130.jpg" alt="">
+        		<a href="javascript:;">企业网络案例</a>
+        	</li>
+        	<li class="right_pic">
+        		<img src="http://img.mukewang.com/53edad7a0001cde803300130.jpg" alt="">
+        		<a href="javascript:;">Javascript基础</a>
+       	 	</li>
+       	 </ul>
+    </div><!-- course结束 -->
+	<div class="main">
+		<dl>
+			<dt>新闻中心</dt>
+			<dd class="news_list">
+				<ul>
+                    <li>
+                        <div class="news_date">8月23日</div>
+                        <div class="news_content">
+                            <h3><a href="#">学习计划之"Android攻城狮初养成"</a></h3>
+                            <p><a href="#">想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起?</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news_date">8月23日</div>
+                        <div class="news_content">
+                            <h3><a href="#">学习计划之"Android攻城狮初养成"</a></h3>
+                            <p><a href="#">想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起?</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news_date">8月23日</div>
+                        <div class="news_content">
+                            <h3><a href="#">学习计划之"Android攻城狮初养成"</a></h3>
+                            <p><a href="#">想成为Android攻城狮?想开发一款专属App?没有任何基础的你,应该从何学起?</a></p>
+                        </div>
+                    </li>
+                </ul>
+			</dd>
+		</dl>
+		<dl class="activity">
+			<dt>热门活动</dt>
+			<dd>
+				<a href="#">
+                    <img src="http://img.mukewang.com/53edacdd0001b8e804820302.jpg" alt="活动">
+                </a>
+                <ul>
+                    <li><a href="#">慕课网2048源码征集</a> </li>
+                    <li><a href="#">慕课网2048源码征集</a> </li>
+                    <li><a href="#">慕课网2048源码征集</a> </li>
+                    <li><a href="#">慕课网2048源码征集</a> </li>
+                    <li><a href="#">慕课网2048源码征集</a> </li>
+                </ul>
+			</dd>
+		</dl>
+		<dl class="right_main">
+			<dt>联系我们</dt>
+			<dd>
+				<p>讲师招募<br>
+                    ZT<br>
+                    电话：10086<br>
+                    QQ:360870202<br>
+                    E-mail:gobananas@163.com<br><br>
+                    网站合作<br>
+                    LK<br>
+                    电话：10086<br>
+                    QQ:360870202<br>
+                    E-mail:gobananas@163.com
+                </p>
+			</dd>
+		</dl>
+	</div><!-- main结束 -->
+	</div><!-- wrap结束 -->
+	<div class="copyright">
+		<p>Copyright © 2013 imooc.com All Rights Reserved 京ICP备 13046642号-2</p>
+	</div><!-- copyright结束 -->
+</body>
+</html>
